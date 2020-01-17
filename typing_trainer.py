@@ -11,7 +11,7 @@ def main():
         wordlen = 10
    
     # read wordlist source: https://github.com/first20hours/google-10000-english
-    fin = open('typing_game.txt', encoding='latin-1')    
+    fin = open('typing_trainer.txt', encoding='latin-1')    
     word_list = fin.readlines()
     word_list = [s.strip() for s in word_list if len(s.strip())>3]
     fin.close()
