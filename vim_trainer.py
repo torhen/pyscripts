@@ -54,11 +54,20 @@ def task_08(quote):
     return f'\n{question}\n"{res} "\n'
 
 def task_09(quote):
-    question = 'order the lines (dd) (p)\n'
+    question = 'order the lines (dd) (p)'
     l = quote.split()
     random.shuffle(l)
     res = '\n'.join(l)
     return f'\n{question}\n{res}\n'
+
+def task_10(quote):
+    question = 'de-indent all lines uing (V) (<)'
+    res = quote
+    return f'\n{question}\n\t{res}\n\t{res}\n\t{res}\n'
+
+def task_11(quote):
+    question = 'navigate between paragraps ({) (})'
+    return f'\n{question}\n'
 
 tasks = []
 tasks.append(task_00)
@@ -71,10 +80,12 @@ tasks.append(task_06)
 tasks.append(task_07)
 tasks.append(task_08)
 tasks.append(task_09)
+tasks.append(task_10)
+tasks.append(task_11)
 
 random.shuffle(tasks)
 
-txt = f'quote: {quote}\n'
+txt = f' {quote}\n'
 
 for task in tasks:
     txt = txt + task(quote)
