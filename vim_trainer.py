@@ -69,6 +69,9 @@ def task_11(quote):
     question = 'navigate between paragraps ({) (})'
     return f'\n{question}\n'
 # ctrl g to show line numbee 123G TO go to line 123
+def task_12(quote):
+    question = "show line number (ctrl g)"
+    return f'\{question}\n'
 
 tasks = []
 tasks.append(task_00)
@@ -83,6 +86,7 @@ tasks.append(task_08)
 tasks.append(task_09)
 tasks.append(task_10)
 tasks.append(task_11)
+tasks.append(task_12)
 
 random.shuffle(tasks)
 
