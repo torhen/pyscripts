@@ -77,6 +77,14 @@ def task_13(quote):
     question = "move half screen up and down (ctrl+u) (ctl+d)"
     return f'\n{question}\n'
 
+def task_14(quote):
+    question = "open new line under current (o)"
+    return f'\n{question}\n{quote}\n'
+
+def task_15(quote):
+    question = "show and hide line numbers (:set number) (:set nonumber)"
+    return f'\n{question}\n'
+
 tasks = []
 tasks.append(task_00)
 tasks.append(task_01)
@@ -92,6 +100,8 @@ tasks.append(task_10)
 tasks.append(task_11)
 tasks.append(task_12)
 tasks.append(task_13)
+tasks.append(task_14)
+tasks.append(task_15)
 
 random.shuffle(tasks)
 
