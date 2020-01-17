@@ -68,6 +68,7 @@ def task_10(quote):
 def task_11(quote):
     question = 'navigate between paragraps ({) (})'
     return f'\n{question}\n'
+# ctrl g to show line numbee 123G TO go to line 123
 
 tasks = []
 tasks.append(task_00)
