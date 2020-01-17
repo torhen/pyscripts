@@ -18,7 +18,7 @@ def task_02(quote):
     return f'\n{question}\n{res}\n'
 
 def task_03(quote):
-    question = 'replace delete letters (x)'
+    question = 'delete letters (x)'
     res = quote
     res = res.replace('e', 'e-')
     res = res.replace('a', 'a-')
