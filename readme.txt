@@ -1,1 +1,1 @@
-TEST
+First trial using GIT.
