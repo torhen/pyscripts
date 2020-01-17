@@ -71,7 +71,11 @@ def task_11(quote):
 
 def task_12(quote):
     question = "show line number (ctrl+g) and go to line +10 (xxG)"
-    return f'n\{question}\n'
+    return f'\n{question}\n'
+
+def task_13(quote):
+    question = "move half screen up and down (ctrl+u) (ctl+d)"
+    return f'\n{question}\n'
 
 tasks = []
 tasks.append(task_00)
@@ -87,6 +91,7 @@ tasks.append(task_09)
 tasks.append(task_10)
 tasks.append(task_11)
 tasks.append(task_12)
+tasks.append(task_13)
 
 random.shuffle(tasks)
 
