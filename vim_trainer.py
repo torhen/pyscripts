@@ -85,6 +85,10 @@ def task_15(quote):
     question = "show and hide line numbers (:set number) (:set nonumber)"
     return f'\n{question}\n'
 
+def task_16(quote):
+    question = "show and hide relativ line numbers (:set relativenumber) (:set norelativnumber)"
+    return f'\n{question}\n'
+
 tasks = []
 tasks.append(task_00)
 tasks.append(task_01)
@@ -102,6 +106,7 @@ tasks.append(task_12)
 tasks.append(task_13)
 tasks.append(task_14)
 tasks.append(task_15)
+tasks.append(task_16)
 
 random.shuffle(tasks)
 
