@@ -70,7 +70,7 @@ def task_11(quote):
     return f'\n{question}\n'
 
 def task_12(quote):
-    question = "show line number (ctrl+g) and go to line +10 (xxG)"
+    question = "show line number (ctrl+g) and go to beginning and back (xxG)"
     return f'\n{question}\n'
 
 def task_13(quote):
