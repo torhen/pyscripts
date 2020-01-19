@@ -78,7 +78,7 @@ def task_13(quote):
     return f'\n{question}\n'
 
 def task_14(quote):
-    question = "open new line under current (o)"
+    question = "open new line under and above current (o) (O):"
     return f'\n{question}\n{quote}\n'
 
 def task_15(quote):
@@ -92,6 +92,14 @@ def task_16(quote):
 def task_17(quote):
     question = "search for a string (/) (n)"
     return f'\n{question}\n'
+
+def task_18(quote):
+    question = "change words (cw)"
+    return f'\n{question}\n{quote}\n'
+
+def task_19(quote):
+    question = "repeat last comment (.)"
+    return f'\n{question}\n{quote}\n'
 
 tasks = []
 tasks.append(task_00)
@@ -112,6 +120,8 @@ tasks.append(task_14)
 tasks.append(task_15)
 tasks.append(task_16)
 tasks.append(task_17)
+tasks.append(task_18)
+tasks.append(task_19)
 
 random.shuffle(tasks)
 
