@@ -98,7 +98,7 @@ def task_18(quote):
     return f'\n{question}\n{quote}\n'
 
 def task_19(quote):
-    question = "repeat last comment (.)"
+    question = "change word to bla and repeat last comment (cw)(.)"
     return f'\n{question}\n{quote}\n'
 
 tasks = []
