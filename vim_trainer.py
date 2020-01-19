@@ -101,6 +101,10 @@ def task_19(quote):
     question = "change word to bla and repeat last comment (cw)(.)"
     return f'\n{question}\n{quote}\n'
 
+def task_20(quote):
+    question = "find next letter (f)(F)"
+    return f'\n{question}\n{quote}\n'
+
 tasks = []
 tasks.append(task_00)
 tasks.append(task_01)
@@ -122,6 +126,7 @@ tasks.append(task_16)
 tasks.append(task_17)
 tasks.append(task_18)
 tasks.append(task_19)
+tasks.append(task_20)
 
 random.shuffle(tasks)
 
