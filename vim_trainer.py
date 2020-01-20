@@ -47,11 +47,11 @@ def task_07(quote):
     return f'\n{question}\n{quote}\n'
 
 def task_08(quote):
-    question = 'order the word (dw) (p)'
+    question = 'sort the words (dw) (P)'
     l = quote.split()
     random.shuffle(l)
     res = ' '.join(l)
-    return f'\n{question}\n"{res} "\n'
+    return f'\n{question}\n{res} \n'
 
 def task_09(quote):
     question = 'order the lines (dd) (p)'
@@ -109,6 +109,11 @@ def task_21(quote):
     question = "find word under cursor (*)(#)" 
     return f'\n{question}\n{quote}\n'
 
+
+def task_22(quote):
+    question = "replace more than on letter (R)"
+    return f'\n{question}\n{quote}\n'
+
 tasks = []
 tasks.append(task_00)
 tasks.append(task_01)
@@ -132,6 +137,8 @@ tasks.append(task_18)
 tasks.append(task_19)
 tasks.append(task_20)
 tasks.append(task_21)
+tasks.append(task_22)
+
 
 random.shuffle(tasks)
 
