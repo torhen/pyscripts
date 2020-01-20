@@ -102,7 +102,7 @@ def task_19(quote):
     return f'\n{question}\n{quote}\n'
 
 def task_20(quote):
-    question = "find next letter (f)(F)"
+    question = "find next letter (f)(F), repeat search (;)" 
     return f'\n{question}\n{quote}\n'
 
 tasks = []
