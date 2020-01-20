@@ -105,6 +105,10 @@ def task_20(quote):
     question = "find next letter (f)(F), repeat search (;)" 
     return f'\n{question}\n{quote}\n'
 
+def task_21(quote):
+    question = "find word under cursor (*)(#)" 
+    return f'\n{question}\n{quote}\n'
+
 tasks = []
 tasks.append(task_00)
 tasks.append(task_01)
@@ -127,6 +131,7 @@ tasks.append(task_17)
 tasks.append(task_18)
 tasks.append(task_19)
 tasks.append(task_20)
+tasks.append(task_21)
 
 random.shuffle(tasks)
 
