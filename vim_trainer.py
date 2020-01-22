@@ -109,9 +109,8 @@ def task_21(quote):
     question = "find word under cursor (*)(#)" 
     return f'\n{question}\n{quote}\n'
 
-
 def task_22(quote):
-    question = "replace more than on letter (R)"
+    question = "overwrite line (R)"
     return f'\n{question}\n{quote}\n'
 
 tasks = []
